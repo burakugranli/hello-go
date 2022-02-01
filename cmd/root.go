@@ -46,7 +46,7 @@ to quickly create a Cobra application.`,
 	// has an action associated with it:
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Printf("Working version: %s and commit: %s\n", Version, GitCommit)
-		fmt.Fprintf(cmd.OutOrStdout(), "Merhaba Go Türkiye!!!")
+		fmt.Fprintf(cmd.OutOrStdout(), "Hello Burak, First go project to commit!!!")
 	},
 }
 
