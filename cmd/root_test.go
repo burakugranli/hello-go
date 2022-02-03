@@ -12,7 +12,7 @@ func TestRootCmda(t *testing.T) {
 	_ = rootCmd.Execute()
 
 	out := buf.String()
-	if out != "Hello Burak!!!" {
+	if out != "Hello Burak, First go project to commit!!!" {
 		t.Errorf("it should be equal %s == Merhaba Go Türkiye!!", out)
 	}
 }
